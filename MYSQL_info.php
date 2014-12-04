@@ -7,8 +7,8 @@
     $dbpass = $url["pass"];
     $dbname = substr($url["path"],1);
 
-    //mysqli_connect($dbhost, $dbuser, $dbpass);
+    mysqli_connect($dbhost, $dbuser, $dbpass);
 
 
-    //mysqli_select_db($dbname);
+    mysqli_select_db($dbname);
 ?>
