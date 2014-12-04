@@ -6,17 +6,17 @@
             $user_password = $_POST["user_password"];
             
             
-            $conn = mysqli_connect($dbhost, $dbuser, $dbpass) or die('Error with MySQL connection');
+            $conn = mysql_connect($dbhost, $dbuser, $dbpass) or die('Error with MySQL connection');
             if($conn){
-                mysqli_query("SET NAMES 'utf8'");
-                mysqli_select_db($dbname);
+                mysql_query("SET NAMES 'utf8'");
+                mysql_select_db($dbname);
 
                 $sql = 'SELECT * FROM `user_info` WHERE `user_account`="'.$user_account.'"';
 
-                $result = mysqli_query($sql) or die('MySQL query error');
+                $result = mysql_query($sql) or die('MySQL query error');
         
                 
-                while($row = mysqli_fetch_array($result)){
+                while($row = mysql_fetch_array($result)){
                     $password = $row['user_password'];
                     if($user_password===$password){
                         if($row['PNcode'] == "1"){
