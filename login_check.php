@@ -11,7 +11,7 @@
                 mysql_query("SET NAMES 'utf8'");
                 mysql_select_db($dbname);
 
-                $sql = "SELECT * FROM `user_info` WHERE user_account='$user_account'";
+                $sql = "SELECT * FROM `user_info` WHERE `user_account`='$user_account'";
 
                 $result = mysql_query($sql) or die('MySQL query error');
         
@@ -39,12 +39,12 @@
                             $_SESSION['user_host'] = $row['user_host'];
                             $_SESSION['match_id'] = $row['match_id'];
                             
-                            header("Location: http://localhost/V1/home.php");
+                            header("Location: http://frozen-dusk-3508.herokuapp.com/index.php");
                         }else{
-                            header("Location: http://localhost/V1/login.php?prove=0&id=".$row['id']);
+                            header("Location: http://frozen-dusk-3508.herokuapp.com/login.php?prove=0&id=".$row['id']);
                         }
                     }else{
-                        header("Location: http://localhost/V1/login.php");
+                        header("Location: http://frozen-dusk-3508.herokuapp.com/login.php");
                     }   
                 }            
                
