@@ -1,0 +1,180 @@
+body {
+  background:url(bodybg.jpg);
+  background-repeat:repeat-x;
+  background-color:#5da9f5;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom:0px;
+}
+body,td,th {
+  font-family:Tahoma;
+  font-size: 12px;
+  color: #666666;
+}
+.borderblue  {
+  border:solid 1px #5194d8;
+}
+
+table.navbar td a{
+  display: block;
+  #width: 9em;
+  #padding-top: 3px;
+  text-decoration: none;
+  height:19px;
+}
+table.navbar td a:link, table.navbar td a:visited {
+  width:133px;
+  font: bold 11px/19px Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  background-repeat:no-repeat;
+  background-image: url(menu.jpg);
+}
+table.navbar td a:hover, table.navbar td a:active {
+  width:133px;
+  font: bold 11px/19px Arial, Helvetica, sans-serif;
+  color: #2a699e;
+  background-repeat:no-repeat;
+  background-image: url(menu_hover.jpg);
+}
+td.navbarsep {
+  width: 5px;
+}
+.borderRL {
+  border-right :1px solid #5da9f5;
+  border-left: 1px solid #5da9f5;
+}
+.style2 {
+  font-size: 11px;
+  color: #FFFFFF;
+}
+.text {
+  font-family:Tahoma;
+  font-size: 11px;
+  color: #666666;
+}
+.header {
+  font-family: Tahoma;
+  font-size: 12px;
+  color: #b3cbe4;
+  text-decoration: none;
+}
+.series {
+  font-family: Tahoma;
+  font-weight:bold;
+  font-size: 15px;
+  color: #004fa5;
+  text-decoration: none;
+}
+.link{
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 11px;
+  font-weight:bold;
+  color: #295e9a;
+  text-decoration: none;
+}
+.link:hover{
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 11px;
+  font-weight:bold;
+  color: #777777;
+  text-decoration: none;}
+
+
+
+.title{
+  font-family: Tahoma;
+  letter-spacing:-1px;
+  font-size: 20px;
+  color: #41270e;
+  text-decoration: none;
+}
+.ltpanelhead {
+  font-family: Tahoma, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #2a689d;
+  font-weight: bold;
+}
+.SubpgTitle {
+  font-family: "Trebuchet MS", Georgia, serif;
+  font-size: 24px;
+  color: #c16f01;
+  font-weight: 600;
+}
+
+a.ltpanelCnt {
+  font-family: Tahoma, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #5b5959;
+  text-decoration:none
+}
+
+ a.ltpanelCnt:hover{
+  font-family: Tahoma, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #ff6600;
+  text-decoration:none
+}
+
+
+
+
+.white{
+  font-family: Tahoma;
+  font-size: 11px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.menubold{
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight:bold;
+  font-size: 11px;
+  color: #3b3b3b;
+  text-decoration: none;
+}
+
+.menubold:hover{
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight:bold;
+  font-size: 11px;
+  color: #004b8d;
+  text-decoration: none;
+}
+
+
+.whitetext {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 11px;
+  letter-spacing:1px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+td.tpBg {
+  background-image: url(tpBg.jpg);
+  background-repeat: repeat-x;
+  background-color: #FFFFFF;
+}
+
+td.tpBgMain {
+  background-image: url( maintbheader.jpg);
+  background-repeat: repeat-x;
+  background-color: #FFFFFF;
+}
+
+body, table, th, td, input, option, select, .upldborder {
+  font: 12px Arial,Helvetica,sans-serif;
+}
+table.upldborder {
+  border: 1px solid #C0C0C0;
+  border-collapse: collapse;
+}
+td.upldborder {
+  border: 1px solid #C0C0C0;
+}
+select.upldborder {
+  width:250px;
+}

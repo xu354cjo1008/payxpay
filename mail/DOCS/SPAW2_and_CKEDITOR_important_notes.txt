@@ -1,0 +1,35 @@
+This is a significant change in v1.8.1 for users of either SPAW2 or CKEditor. Please follow the instructions below.
+
+************
+CKEditor users:
+
+You will need to change the file "_acp-ml/modules/kfm/configuration.php
+- look for these two lines that start with:
+
+  $kfm_userfiles_address (around line 47)
+  modify it so that it reads:
+  $kfm_userfiles_address = '/your/path/to/phpmailer-ml/_msgimgs';
+
+  $kfm_userfiles_output (around line 59)
+  modify it so that it reads:
+  $kfm_userfiles_output = '/subdir/_msgimgs';
+  (if PHPMailer-ML is installed in the root of your domain, remove /subdir)
+
+  * note, replace '/your/path/to' with your own server path information
+
+You will need to change the file "_acp-ml/modules/kfm/initialise.php
+- look for the line (around line 67):
+  $kfm->defaultSetting('file_url','secure');
+  modify it so that it reads:
+  $kfm->defaultSetting('file_url','url');
+
+** NOTE ABOUT KFM FILE MANAGER: It will only work with PHP5
+
+************
+SPAW2 users:
+
+You will need to change the file "_acp-ml/modules/spaw2/config/config.php
+- look for the line (around line 252):
+  'dir'     => SpawConfig::getStaticConfigValue('SPAW_DIR').'uploads/images/',
+  modify it so that it reads:
+  'dir'     => SpawConfig::getStaticConfigValue('SPAW_DIR').'../../../_msgimgs/',

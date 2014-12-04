@@ -1,0 +1,80 @@
+#accl {
+  font:10px Arial, Helvetica, sans-serif;
+  width:150px;
+  list-style:none;
+  color:#033;
+  margin:0;
+  padding:0;
+}
+#accl li {
+  border:1px solid #9ac1c9;
+  margin-top:5px;
+}
+#accl h3 {
+  font:12px Arial, Helvetica, sans-serif;
+  width:136px;
+  padding:6px;
+  font-weight:bold;
+  margin:0;
+  cursor:pointer;
+  background:url(acc_header.gif);
+}
+#accl h3:hover {
+  background:url(acc_header_over.gif);
+}
+#accl .acc-section {
+  width:148px;
+  background:#fff;
+  overflow:hidden;
+}
+#accl .acc-content {
+  width:138px;
+  background:#fff;
+  padding:2px 2px 2px 2px;
+}
+
+#accr {
+  font:10px Arial, Helvetica, sans-serif;
+  width:150px;
+  list-style:none;
+  color:#033;
+  margin:0;
+  padding:0;
+}
+#accr li {
+  border:1px solid #9ac1c9;
+  margin-top:5px;
+}
+#accr h3 {
+  font:12px Arial, Helvetica, sans-serif;
+  width:136px;
+  padding:6px;
+  font-weight:bold;
+  margin:0;
+  cursor:pointer;
+  background:url(acc_header.gif);
+}
+#accr h3:hover {
+  background:url(acc_header_over.gif);
+}
+#accr .acc-section {
+  width:148px;
+  background:#fff;
+  overflow:hidden;
+}
+#accr .acc-content {
+  width:138px;
+  background:#fff;
+  padding:2px 2px 2px 2px;
+}
+
+
+/*
+
+#nested {width:125px; list-style:none; color:#033; margin-bottom:15px}
+#nested h3 {width:111px; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(acc_header.gif)}
+#nested h3:hover {background:url(acc_header_over.gif)}
+#nested .acc-section {overflow:hidden; background:#fff}
+#nested .acc-content {width:133px; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested .acc-selected {background:url(acc_header_over.gif)}
+*/

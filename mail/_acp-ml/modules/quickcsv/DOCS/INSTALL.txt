@@ -1,0 +1,46 @@
+INSTALL.txt
+
+License: Attribution-Noncommercial-No Derivative Works 3.0 Unported
+For more information on this license type:
+http://creativecommons.org/licenses/by-nc-nd/3.0/
+
+Installation is straight-forward:
+
+1. Unzip the files to your local computer.
+
+2. Edit the file 'inc.db.php' - you will need to add your MySQL database
+   database name, username, and password. If the information is missing,
+   QuickCSV Suite will not run. You do not have to define any tables,
+   QuickCSV Suite will read your database and display available tables for 
+   both uploading CSV files to, and for reading and creating CSV files to
+   download.
+   - Note: there is only one file to edit.
+
+3. Upload all of the files to your web server. We recommend putting them in 
+   a directory called "quickcsv" - however, the directory you install to is
+   entirely up to you.
+
+4. Once uploaded:
+   -- set the "quickcsv/files/" directory as writable. If the files/ 
+   directory is not writable QuickCSV Suite will not run.
+   -- set the "quickcsv/fieldmaps/" directory as writable. If the fieldmaps/
+   directory is not writable QuickCSV Suite will not run.
+
+-  If you do not yet have a table setup to upload your CSV files to,
+   note that we have included 'vcard.sql' that you can use. Add it to your
+   MySQL database and you are ready to go. 'vcard.sql' is a database structure
+   we use mainly for contact type information.
+
+Once you are done, point your browser to:
+
+http://www.yourdomain.com/quickcsv/ (defaults to csv2mysql.php)
+or
+http://www.yourdomain.com/quickcsv/csv2mysql.php
+or
+http://www.yourdomain.com/quickcsv/mysql2csv.php
+
+You will be able to switch between the two from inside the application..
+
+Enjoy!
+Andy Prevost
+www.worxware.com

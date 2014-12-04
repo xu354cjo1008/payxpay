@@ -1,0 +1,36 @@
+ChangeLog
+
+License: Attribution-Noncommercial-No Derivative Works 3.0 Unported
+For more information on this license type:
+http://creativecommons.org/licenses/by-nc-nd/3.0/
+
+Version: 1.0 (July 15 2009)
+Thanks to all for the feedback on rc2 and to the beta testers for more testing on rc2.
+This is now the formal release.
+- fixed the empty last column in CSV issue
+- fixed empty options in Duplicate Field Check and Validate Email fields
+- fixed folder permissions check
+- fixed file permissions check
+
+Version: 1rc2 (June 22 2009)
+Thanks to all for the feedback on rc1 and to the beta testers for more testing on rc1.
+- Added CSV2MySQL Microsoft Excel CSV compatibility (Automated mode, field enclosure) -
+  - primarily, support for individual field enclosures where the field contains a field separator (usually a comma)
+- Added MySQL2CSV Microsoft Excel CSV compatibility (Automated mode, field enclosure) -
+  - primarily, support for individual field enclosures where the field contains a field separator (usually a comma)
+- Added CSV2MySQL Automated mode for field separators ... now will look for the \t (tab) character
+  and set that as the field separator, if not found will default to comma
+- Added support for large files (tested with CSV files that have up to 63,000 records)
+- Fixed MySQL INSERT issue for large files
+- Added ability to create a new MySQL table (CSV2MySQL)
+- Added ability to define a string (or NULL) for empty records (CSV2MySQL)
+- Added "Duplicate Fields Check" (CSV2MySQL)
+- Added "Validate Email) functionality (CSV2MySQL)
+- Added ability to replace MySQL "NULL" with user selected choice (MySQL2CSV)
+- Added support for large files (both upload and when already on server)
+  - note: this is a fixed memory size allocation of 96 Mb. It has been tested on CSV files 
+    up to 14.8 Mb, with 63,000 records.
+
+Version: 1rc1 (June 15 2009)
+- Initial release candidate
+- no known bugs (none reported from beta2)
