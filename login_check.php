@@ -10,7 +10,7 @@
             if($conn){
                 mysqli_query("SET NAMES 'utf8'");
                 mysqli_select_db($dbname);
-                echo $dbname;
+                echo $dbhost;
                 $sql = "SELECT * FROM `user_info` WHERE `user_account`='".$user_account."'";
 
                 $result = mysqli_query($sql) or die('MySQL query error');
