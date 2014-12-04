@@ -11,6 +11,10 @@
                 mysqli_query("SET NAMES 'utf8'");
                 mysqli_select_db($dbname);
 
+                $sql = "SELECT * FROM `user_info`";
+
+                $result = mysqli_query($sql) or die('MySQL query error fuck');
+
                 $sql = "SELECT * FROM `user_info` WHERE `user_account`='".$user_account."'";
 
                 $result = mysqli_query($sql) or die('MySQL query error');
