@@ -7,7 +7,7 @@
     </head>
     <body>
         <div id="main">
-            <a href="http://localhost/V1/home.php"><img class="logo" src="image/logo.png"></a>
+            <a href="http://frozen-dusk-3508.herokuapp.com/index.php"><img class="logo" src="image/logo.png"></a>
 <!--            <img class="login" src="image/login.png">
             <a href="http://localhost/V1/register.php"><img class="register" src="image/register.png"></a>-->
             <img class="login_bg" src="image/login_bg.png">
@@ -24,7 +24,7 @@
             <div id="login_text_password">使用者密碼</div>
             
             <a id="login_forget" href="#">忘記密碼?</a>
-            <a id="login_register" href="http://localhost/V1/register.php">註冊新帳號</a>
+            <a id="login_register" href="http://frozen-dusk-3508.herokuapp.com/register.php">註冊新帳號</a>
             
         </div>
         <script language="JavaScript">

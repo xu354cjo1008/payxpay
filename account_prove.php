@@ -26,7 +26,7 @@ $user_account = $_GET['user_account'];
                         mysql_query($sql);    
                         mysql_close($conn);
                         
-                        header("Location: http://localhost/V1/home.php");
+                        header("Location: http://frozen-dusk-3508.herokuapp.com/home.php");
                         
                     }else if($row["PNcode"]=="1"){
                         echo "已認證完成";

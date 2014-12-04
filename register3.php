@@ -34,7 +34,7 @@
             
             <div id="register_finish">
                 
-                <a href="http://localhost/V1/home.php"><img src="image/register_finish.png"></a>
+                <a href="http://frozen-dusk-3508.herokuapp.com/index.php"><img src="image/register_finish.png"></a>
             </div>
             <script type="text/javascript"> 
                 window.history.forward(1);

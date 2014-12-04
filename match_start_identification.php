@@ -18,15 +18,15 @@
                 if($_SESSION['user_state']=='0')
                  ;
                 else if($_SESSION['user_state']=='1' || $_SESSION['user_state']=='2')
-                    header("location: http://localhost/V1/match.php");
+                    header("location: http://frozen-dusk-3508.herokuapp.com/match.php");
                 else if($_SESSION['user_state']=='3')
-                    header("location: http://localhost/V1/matching.php");
+                    header("location: http://frozen-dusk-3508.herokuapp.com/matching.php");
                         
             }else{
              echo "damn";
             }session_write_close();
      }else{
          session_write_close();
-         header("location: http://localhost/V1/PhpProject8/index.php");
+         header("location: http://frozen-dusk-3508.herokuapp.com/PhpProject8/index.php");
      }
 ?>

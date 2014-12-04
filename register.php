@@ -12,7 +12,7 @@
         
         
         <div id="main">
-            <a href="http://localhost/V1/home.php"><img class="logo" src="image/logo.png"></a>
+            <a href="http://frozen-dusk-3508.herokuapp.com/index.php"><img class="logo" src="image/logo.png"></a>
             <img class="register_bg" src="image/register_bg.png">
             <img class="register_content" src="image/register_content.png">
             <img class="register_icon1" src="image/register_icon_normal.png">

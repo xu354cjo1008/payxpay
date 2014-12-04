@@ -101,7 +101,7 @@
         $mail->IsHTML(true); // send as HTML
         $mail->Subject = mb_encode_mimeheader("男女配不pay註冊帳號認證信", "UTF-8"); 
         // 信件標題
-        $xx = "http://localhost/V1/account_prove.php?user_account=".$user_account."&PNcode=".$PNcode;
+        $xx = "http://frozen-dusk-3508.herokuapp.com/account_prove.php?user_account=".$user_account."&PNcode=".$PNcode;
         $string = mb_encode_mimeheader("點點我", "UTF-8");
         $mail->Body = '<a href='.$xx.'>點點我</a>';
         //信件內容(html版，就是可以有html標籤的如粗體、斜體之類)
@@ -115,7 +115,7 @@
         echo "寄信成功";
         }
         //-----------     
-        header("Location: http://localhost/V1/register3.php");
+        header("Location: http://frozen-dusk-3508.herokuapp.com/register3.php");
 
 ?>
     </body>
