@@ -21,10 +21,10 @@
         
         
         <div id="main">
-            <a href="http://localhost/V1/home.php"><img class="logo" src="image/logo.png"></a>
+            <a href="http://frozen-dusk-3508.herokuapp.com/index.php"><img class="logo" src="image/logo.png"></a>
             
-            <a href="http://localhost/V1/login.php"><img id="login" class="login" src="image/login.png"></a>
-            <a href="http://localhost/V1/register.php"><img id="register" class="register" src="image/register.png"></a>
+            <a href="http://frozen-dusk-3508.herokuapp.com/login.php"><img id="login" class="login" src="image/login.png"></a>
+            <a href="http://frozen-dusk-3508.herokuapp.com/register.php"><img id="register" class="register" src="image/register.png"></a>
             
              <div id="login_pic"></div>
                 <div id="login_name"> </div>
@@ -36,11 +36,11 @@
             <img class="home_info3" src="image/home_info3.png">
             <img class="home_info4" src="image/home_info4.png">
             <img class="choose_home" src="image/menu_choose.png">
-            <a id="home_text" href="http://localhost/V1/home.php">首頁</a>
-            <a id="match_text" href="http://localhost/V1/match.php">即時配對</a>
-            <a id="mypage_text" href="http://localhost/V1/mypage.php">我的頁面</a>
-            <a id="history_text" href="http://localhost/V1/history.php">我的活動</a>
-            <a id="suggest_text" href="http://localhost/V1/suggest.php">推薦行程</a>
+            <a id="home_text" href="http://frozen-dusk-3508.herokuapp.com/index.php">首頁</a>
+            <a id="match_text" href="http://frozen-dusk-3508.herokuapp.com/match.php">即時配對</a>
+            <a id="mypage_text" href="http://frozen-dusk-3508.herokuapp.com/mypage.php">我的頁面</a>
+            <a id="history_text" href="http://frozen-dusk-3508.herokuapp.com/history.php">我的活動</a>
+            <a id="suggest_text" href="http://frozen-dusk-3508.herokuapp.com/suggest.php">推薦行程</a>
            
             
             
@@ -66,7 +66,7 @@
                             error: function(xhr) {  
                             },
                             success: function(response) {
-                             self.location = 'http://localhost/V1/home.php';
+                             self.location = 'http://frozen-dusk-3508.herokuapp.com/index.php';
                             }
                             });  
                 });
@@ -92,9 +92,9 @@
         }else{
             document.getElementById("login_pic").style.display='none';
             document.getElementById("login_name").style.display='none'; 
-            document.getElementById('match_text').href  = "http://localhost/V1/login.php";
-            document.getElementById('mypage_text').href  = "http://localhost/V1/login.php";
-            document.getElementById('history_text').href  = "http://localhost/V1/login.php";    
+            document.getElementById('match_text').href  = "http://frozen-dusk-3508.herokuapp.com/login.php";
+            document.getElementById('mypage_text').href  = "http://frozen-dusk-3508.herokuapp.com/login.php";
+            document.getElementById('history_text').href  = "http://frozen-dusk-3508.herokuapp.com/login.php";    
         }    
         });
         </script>
