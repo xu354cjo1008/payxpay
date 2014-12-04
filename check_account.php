@@ -9,16 +9,16 @@
             $ee = "OK";
             $user_account = $_POST['user_account'];
 
-            $conn = mysql_connect($dbhost, $dbuser, $dbpass) or die('Error with MySQL connection');
+            $conn = mysqli_connect($dbhost, $dbuser, $dbpass) or die('Error with MySQL connection');
             if($conn){
-                mysql_query("SET NAMES 'utf8'");
-                mysql_select_db($dbname);
+                mysqli_query("SET NAMES 'utf8'");
+                mysqli_select_db($dbname);
 
                 $sql = "SELECT * FROM `user_info` WHERE user_account='$user_account'";
 
-                $result = mysql_query($sql) or die('MySQL query error');
+                $result = mysqli_query($sql) or die('MySQL query error');
         
-               while($row = mysql_fetch_array($result)){
+               while($row = mysqli_fetch_array($result)){
                     $ee = "有人用過摟!";
                 } 
                 echo $ee;

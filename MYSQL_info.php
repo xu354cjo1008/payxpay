@@ -1,13 +1,14 @@
 <?php
 
     $url=parse_url(getenv("CLEARDB_DATABASE_URL"));
-    $server = $url["host"];
-    $username = $url["user"];
-    $password = $url["pass"];
-    $dbhost = substr($url["path"],1);
 
-    mysqli_connect($server, $username, $password);
+    $dbhost = $url["host"];
+    $dbuser = $url["user"];
+    $dbpass = $url["pass"];
+    $dbname = substr($url["path"],1);
+
+    mysqli_connect($dbhost, $dbuser, $dbpass);
 
 
-    mysqli_select_db($dbhost);
+    mysqli_select_db($dbname);
 ?>
