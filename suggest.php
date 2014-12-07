@@ -20,10 +20,10 @@
     </head>
     <body>
         <div id="main">
-            <a href="http://frozen-dusk-3508.herokuapp.com/index.php"><img class="logo" src="image/logo.png"></a>
+            <a href="http://payxpay.herokuapp.com/index.php"><img class="logo" src="image/logo.png"></a>
             
-            <a href="http://frozen-dusk-3508.herokuapp.com/login.php"><img id="login" class="login" src="image/login.png"></a>
-            <a href="http://frozen-dusk-3508.herokuapp.com/register.php"><img id="register" class="register" src="image/register.png"></a>
+            <a href="http://payxpay.herokuapp.com/login.php"><img id="login" class="login" src="image/login.png"></a>
+            <a href="http://payxpay.herokuapp.com/register.php"><img id="register" class="register" src="image/register.png"></a>
             
                 <div id="login_pic"></div>
                 <div id="login_name"> </div>
@@ -31,11 +31,11 @@
           
             <img class="menu" src="image/menu.png">
             <img class="choose_suggest" src="image/menu_choose.png">
-            <a id="home_text" href="http://frozen-dusk-3508.herokuapp.com/index.php">首頁</a>
-            <a id="match_text" href="http://frozen-dusk-3508.herokuapp.com/match.php">即時配對</a>
-            <a id="mypage_text" href="http://frozen-dusk-3508.herokuapp.com/mypage.php">我的頁面</a>
-            <a id="history_text" href="http://frozen-dusk-3508.herokuapp.com/history.php">我的活動</a>
-            <a id="suggest_text" href="http://frozen-dusk-3508.herokuapp.com/suggest.php">推薦行程</a>
+            <a id="home_text" href="http://payxpay.herokuapp.com/index.php">首頁</a>
+            <a id="match_text" href="http://payxpay.herokuapp.com/match.php">即時配對</a>
+            <a id="mypage_text" href="http://payxpay.herokuapp.com/mypage.php">我的頁面</a>
+            <a id="history_text" href="http://payxpay.herokuapp.com/history.php">我的活動</a>
+            <a id="suggest_text" href="http://payxpay.herokuapp.com/suggest.php">推薦行程</a>
             
             
             
@@ -59,7 +59,7 @@
                                 error: function(xhr) {  
                                 },
                                 success: function(response) {
-                                 self.location = 'http://frozen-dusk-3508.herokuapp.com/home.php';
+                                 self.location = 'http://payxpay.herokuapp.com/home.php';
                                 }
                                 });  
                 });
@@ -85,7 +85,7 @@
                 
                 
         }else{
-            self.location = 'http://frozen-dusk-3508.herokuapp.com/login.php';   
+            self.location = 'http://payxpay.herokuapp.com/login.php';   
         }    
         });
         </script>

@@ -26,7 +26,7 @@ $user_account = $_GET['user_account'];
                         mysqli_query($sql);    
                         mysqli_close($conn);
                         
-                        header("Location: http://frozen-dusk-3508.herokuapp.com/index.php");
+                        header("Location: http://payxpay.herokuapp.com/index.php");
                         
                     }else if($row["PNcode"]=="1"){
                         echo "已認證完成";

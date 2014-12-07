@@ -12,7 +12,7 @@
         
         
         <div id="main">
-            <a href="http://localhost/V1/home.php"><img class="logo" src="image/logo.png"></a>
+            <a href="http://payxpay/home.php"><img class="logo" src="image/logo.png"></a>
             <img class="register_bg" src="image/register_bg.png">
            
            
@@ -34,7 +34,7 @@
             
             <div id="register_finish">
                 
-                <a href="http://frozen-dusk-3508.herokuapp.com/index.php"><img src="image/register_finish.png"></a>
+                <a href="http://payxpay.herokuapp.com/index.php"><img src="image/register_finish.png"></a>
             </div>
             <script type="text/javascript"> 
                 window.history.forward(1);

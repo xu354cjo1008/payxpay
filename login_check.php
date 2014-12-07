@@ -39,12 +39,12 @@
                             $_SESSION['user_host'] = $row['user_host'];
                             $_SESSION['match_id'] = $row['match_id'];
                             
-                            header("Location: http://frozen-dusk-3508.herokuapp.com/index.php");
+                            header("Location: http://payxpay.herokuapp.com/index.php");
                         }else{
-                            header("Location: http://frozen-dusk-3508.herokuapp.com/login.php?prove=0&id=".$row['id']);
+                            header("Location: http://payxpay.herokuapp.com/login.php?prove=0&id=".$row['id']);
                         }
                     }else{
-                        header("Location: http://frozen-dusk-3508.herokuapp.com/login.php");
+                        header("Location: http://payxpay.herokuapp.com/login.php");
                     }   
                 }            
                
